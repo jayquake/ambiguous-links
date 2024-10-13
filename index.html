@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>This is a simple HTML + CSS template!</h1>
+
+    <h2>Successes</h2>
+    <a
+      href="/product-details"
+      aria-label="Learn more about our latest product features"
+      >Learn More</a
+    >
+    <br />
+    <a href="/sale" aria-label="Shop Now for the latest sale on winter apparel"
+      >Shop Now</a
+    >
+    <br />
+    <a href="/services" aria-label="Explore our full list of available services"
+      >Start Here</a
+    >
+    <br />
+    <a href="/membership" aria-label="Find out about our membership benefits"
+      >Learn More</a
+    >
+    <br />
+    <a href="/training" aria-label="Begin our comprehensive training program"
+      >Start Here</a
+    >
+    <br />
+    <a href="/blog" aria-label="Read more articles on technology trends"
+      >Learn More</a
+    >
+    <br />
+    <h2>Successes Using different HTML tags</h2>
+    <li class="success1">
+      <button aria-label="Download the latest product brochure">
+        Download
+      </button>
+    </li>
+    <li class="success2">
+      <div role="link" tabindex="0" aria-label="Explore our featured projects">
+        Explore
+      </div>
+    </li>
+    <li class="success3">
+      <a href="/events" aria-label="See upcoming events for October"
+        >See Events</a
+      >
+    </li>
+    <li class="success4">
+      <span role="link" tabindex="0" aria-label="View your account details"
+        >View Account</span
+      >
+    </li>
+    <li class="success5">
+      <input
+        type="button"
+        value="Submit"
+        aria-label="Submit your application for review"
+      />
+    </li>
+    <li class="success5">
+      <a href="/help/faq" aria-label="Find answers in our FAQ section">FAQ</a>
+    </li>
+    <hr />
+    <h2>Failures</h2>
+    <a href="/product-details">Learn More</a>
+    <br>
+    <a href="/sale">Shop Now</a>
+    <br>
+    <a href="/services">Start Here</a>
+    <br>
+    <a href="/membership">Learn More</a>
+    <br>
+    <a href="/training">Start Here</a>
+    <br>
+    <a href="/blog">Learn More</a>
+    <br>
+    </li>
+    <li class="failure1"><a href="/products">Products</a></li>
+    <!-- Failure: "Products" is too vague and doesn't clarify which products or their details. -->
+    <li class="failure2"><a href="/blog">Read More</a></li>
+    <!-- Failure: "Read More" without context is ambiguous for screen readers. -->
+    <li class="failure3"><a href="/events">See Events</a></li>
+    <!-- Failure: Ambiguous, doesn't specify which events or what kind of events. -->
+    <li class="failure4"><a href="/help">Help</a></li>
+    <!-- Failure: Vague link, doesn't describe what help will be provided. -->
+    <li class="failure5"><a href="/documentation">Documentation</a></li>
+    <!-- Failure: Generic, does not specify what part of the documentation or its purpose. -->
+    <li class="failure6"><a href="/services">Learn More</a></li>
+    <!-- Failure: Ambiguous, doesn't describe what the user will learn more about. -->
+  </body>
+</html>
