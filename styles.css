@@ -387,9 +387,13 @@ img {
 img,
 svg {
   vertical-align: middle;
+  height:1em;
+  width:1em;
 }
 svg {
   overflow: hidden;
+  height:1em;
+  width:1em;
 }
 table {
   border-collapse: collapse;
